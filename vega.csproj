@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -11,7 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AUTOMAPPER" Version="6.2.2" />
+    <PackageReference Include="AUTOMAPPER.Extensions.Microsoft.DependencyInjection" Version="1.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="MICROSOFT.EntityFrameworkCore.DEsign" Version="2.0.1" />
+    <PackageReference Include="MICROSOFT.EntityFrameworkCore.SQLServer" Version="2.0.1" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="6.10.5" />
   </ItemGroup>
 
   <ItemGroup>
